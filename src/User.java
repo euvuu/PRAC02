@@ -3,6 +3,7 @@ public class User {
     private String password;
 
     // new rando code lmao
+    // pls commit to master idfk how
 
     public User(String username, String password) {
         this.username = username;
