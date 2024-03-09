@@ -22,6 +22,10 @@ public class User {
         toDoItems.add(item);
     }
 
+    public void remove(ToDoItem item){
+        toDoItems.remove(item);
+    }
+
     /**
      * Gets the username of the user.
      */
@@ -51,5 +55,6 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
 
 }

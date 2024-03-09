@@ -7,6 +7,7 @@ public class ToDoItem   {
         this.description = description;
     }
 
+    // getters
     public String getDescription() {
         return description;
     }
@@ -14,11 +15,17 @@ public class ToDoItem   {
         return isDone;
     }
 
+    // setters
     public void setDescription(String description){
         this.description = description;
     }
+
     public void setDone(Boolean isDone){
-        this.isDone = isDone;
+        this.isDone = true;
+    }
+
+    public void setNotDone(Boolean isDone){
+        this.isDone = false;
     }
 
 }
